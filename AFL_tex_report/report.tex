@@ -128,15 +128,24 @@ Im Rahmen dieser Arbeit wird folgendes vorgestellt ........
 
 \section{Motivation}
 
+Das testen von Software ist einer der wichtigsten Entwicklungsschritte eines jeden Software-Entwicklungsmodells. 
+
+Oftmals ist die Testphase einem erhöhten Zeitdruck ausgesetzt und demzufolge wird sie nicht selten in einem deutlich verkürzten Rahmen durchgeführt.
+Das hat zur Folge, dass sehr oft "Bugs" in Software enthalten sind, die mit entsprechenden Anstrengungen beziehungsweise einem guten Testverfahren gefunden werden können. Dabei ist der Aspekt ein qualitativ gutes Produkt zu liefern genauso wichtig, wie der Prävention vor Schwachstellen, die von Cyber-Kriminellen ausgenutzt werden könnten. 
+
+Mit Fuzzer Programmen hat sich eine Testmethode etabliert, die weitaus mehr Testfälle abdecken kann und dies in deutlich kürzerer Zeit als das mit herkömmlichen Testverfahren möglich ist.
+Insbesondere die jüngsten Fuzzer Tools sind oft vielseitig einsatzfähig und werden immer attraktiver in der Handhabung.
+
 
 \section{Ziel der Arbeit}
+
+Mit diesem Pilotprojekt soll getestet werden, ob sich einer der heutzutage populärsten Fuzzer zum einen gut in den Testprozess einbinden lässt und zum anderen ob die Ergebnisse der Testläufe auch den Erwartungen entsprechen.
+
+Zudem soll die Frage geklärt werden, wie portabel der Fuzzer auf unterschiedliche Zielsysteme ist.
 
 
 \chapter{Vorgehen}
 
-\section{Recherche}
-
-\section{•}
 
 
 \newpage
@@ -146,9 +155,9 @@ Im Rahmen dieser Arbeit wird folgendes vorgestellt ........
 Fuzzing auch als "Robustheits - Prüfung" bekannt, ist eine Methode um Software auf Stabilität und Schwachstellen zu testen. 
 
 Im Vergleich zu Unit-Tests, bietet Fuzzing ein weitaus größeres Spektrum an generierten Zufallsdaten, welche auf die Zielschnittstellen ausgeführt werden.
-Zudem werden die Daten nicht abhängig von dem verantwortlichen Entwickler bestimmt, sondern stellen tatslächliche Zufallsdaten oder Mutationen dar. Das grundlegende Prinzip von Fuzzing ist damit das beschießen der Zielsoftware mit generierten Zufallsdaten und so zu überprüfen, ob sich das Programm unerwartet verhält und dadurch eine Schwachstelle afgetreten ist.
+Zudem werden die Daten nicht abhängig von dem verantwortlichen Entwickler bestimmt, sondern stellen tatslächliche Zufallsdaten oder Mutationen dar. Das grundlegende Prinzip von Fuzzing ist damit das "beschießen" der Zielsoftware mit generierten Zufallsdaten und so zu überprüfen, ob sich das Programm unerwartet verhält und dadurch eine Schwachstelle afgetreten ist.
 
-Als unerwartetes Verhalten ist in der Regel das hängen oder abstürzen einer Software gemeint. Diese "bugs" haben als Ursache oft Speicherleks, welche häufig in den Sprachen C und C++ auftreten, da diese dort nicht bereits automatisiert abgefangen werden. Die Schwachstellen, welche durch so einen Bug auftreten können, sind oft auch Ziel von Kriminellen die insbesondere bei sensibler Software wie Kommunikationsprogrammen hier schaden anrichten können.
+Als unerwartetes Verhalten ist in der Regel das hängen oder abstürzen einer Software gemeint. Diese "Bugs" haben als Ursache oft Speicherleks, welche häufig in den Sprachen C und C++ auftreten, da diese dort nicht bereits automatisiert abgefangen werden. Die Schwachstellen, welche durch so einen Bug auftreten können, sind oft auch Ziel von Kriminellen die insbesondere bei sensibler Software wie Kommunikationsprogrammen hier schaden anrichten können.
 
 Das erste mal wurde der Begriff Fuzzing und diese Methode zu testen von Barton Miller und seinen Studenten an der University of Wisconsin-Madison 1989 entwickelt.
 Viele Jahre konnte sich Fuzzing für den breiten Gebrauch nicht etablieren. Aufgrund von sehr aufwendigen Anpassungen die notwendig waren um die damaligen Fuzzer-Tools auf die entsprechende Zielsoftware zuzuschneiden waren diese für die Testphase schlicht zu kostenintensiv. 
