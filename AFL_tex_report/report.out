@@ -1,0 +1,26 @@
+\BOOKMARK [0][-]{chapter.1}{Praxisstelle und Klausel}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Eidesstattliche Erkl[Please insert \134PrerenderUnicode\173ä\175 into preamble]rung}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Kurzfassung}{}% 3
+\BOOKMARK [0][-]{chapter.4}{Motivation und Ziel der Arbeit}{}% 4
+\BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 5
+\BOOKMARK [1][-]{section.4.2}{Ziel der Arbeit}{chapter.4}% 6
+\BOOKMARK [0][-]{chapter.5}{Vorgehen}{}% 7
+\BOOKMARK [0][-]{chapter.6}{Grundlagen}{}% 8
+\BOOKMARK [1][-]{section.6.1}{Fuzzing}{chapter.6}% 9
+\BOOKMARK [1][-]{section.6.2}{American Fuzzy Lop}{chapter.6}% 10
+\BOOKMARK [2][-]{subsection.6.2.1}{Welche Software kann mit AFL getestet werden?}{section.6.2}% 11
+\BOOKMARK [2][-]{subsection.6.2.2}{Instrumentierung}{section.6.2}% 12
+\BOOKMARK [2][-]{subsection.6.2.3}{Erfassen neuer Programzust\344nde}{section.6.2}% 13
+\BOOKMARK [2][-]{subsection.6.2.4}{Mutation}{section.6.2}% 14
+\BOOKMARK [2][-]{subsection.6.2.5}{Fuzzing Session}{section.6.2}% 15
+\BOOKMARK [2][-]{subsection.6.2.6}{Evaluation}{section.6.2}% 16
+\BOOKMARK [1][-]{section.6.3}{mehr Grundlagen ......}{chapter.6}% 17
+\BOOKMARK [0][-]{chapter.7}{Zielsoftware \(System - Stack\)}{}% 18
+\BOOKMARK [1][-]{section.7.1}{Aufteilung des Ziels in Schichten}{chapter.7}% 19
+\BOOKMARK [1][-]{section.7.2}{Mitschneiden von Programmdaten}{chapter.7}% 20
+\BOOKMARK [1][-]{section.7.3}{Testumgebungen anlegen}{chapter.7}% 21
+\BOOKMARK [2][-]{subsection.7.3.1}{Auswertung der Testdaten}{section.7.3}% 22
+\BOOKMARK [1][-]{section.7.4}{Probleme und L\366sungen}{chapter.7}% 23
+\BOOKMARK [1][-]{section.7.5}{Fazit und Zusammenfassung}{chapter.7}% 24
+\BOOKMARK [1][-]{section.7.6}{Quellen}{chapter.7}% 25
+\BOOKMARK [1][-]{section.7.7}{Abbildungsverzeichnis}{chapter.7}% 26

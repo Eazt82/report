@@ -1,0 +1,27 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Praxisstelle und Klausel}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Eidesstattliche Erkl\begingroup \let \relax \relax \endgroup [Pleaseinsert\PrerenderUnicode {ä}intopreamble]rung}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Kurzfassung}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Motivation und Ziel der Arbeit}{6}{chapter.4}
+\contentsline {section}{\numberline {1}Motivation}{6}{section.4.1}
+\contentsline {section}{\numberline {2}Ziel der Arbeit}{6}{section.4.2}
+\contentsline {chapter}{\numberline {5}Vorgehen}{7}{chapter.5}
+\contentsline {chapter}{\numberline {6}Grundlagen}{8}{chapter.6}
+\contentsline {section}{\numberline {1}Fuzzing}{8}{section.6.1}
+\contentsline {section}{\numberline {2}American Fuzzy Lop}{9}{section.6.2}
+\contentsline {subsection}{\numberline {2.1}Welche Software kann mit AFL getestet werden?}{9}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {2.2}Instrumentierung}{11}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {2.3}Erfassen neuer Programzust\IeC {\"a}nde}{11}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {2.4}Mutation}{11}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {2.5}Fuzzing Session}{11}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {2.6}Evaluation}{11}{subsection.6.2.6}
+\contentsline {section}{\numberline {3}mehr Grundlagen ......}{11}{section.6.3}
+\contentsline {chapter}{\numberline {7}Zielsoftware (System - Stack)}{12}{chapter.7}
+\contentsline {section}{\numberline {1}Aufteilung des Ziels in Schichten}{12}{section.7.1}
+\contentsline {section}{\numberline {2}Mitschneiden von Programmdaten}{13}{section.7.2}
+\contentsline {section}{\numberline {3}Testumgebungen anlegen}{16}{section.7.3}
+\contentsline {subsection}{\numberline {3.1}Auswertung der Testdaten}{18}{subsection.7.3.1}
+\contentsline {section}{\numberline {4}Probleme und L\IeC {\"o}sungen}{19}{section.7.4}
+\contentsline {section}{\numberline {5}Fazit und Zusammenfassung}{19}{section.7.5}
+\contentsline {section}{\numberline {6}Quellen}{19}{section.7.6}
+\contentsline {section}{\numberline {7}Abbildungsverzeichnis}{19}{section.7.7}
